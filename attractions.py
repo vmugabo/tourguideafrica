@@ -28,7 +28,41 @@ attractions = {
         "name": "King's palace Museum",
         "description": "A reconstruction of the traditional royal residence, the King’s Palace is a beautifully-crafted thatched dwelling shaped like a beehive",
         "interests": ["history", "culture"]
+    },
+     "7": {
+        "name": "Inema Art Center",
+        "description": "Inema Art Center is a collective of Rwandan creative artists. It is a place where creativity is nurtured and promoted, where a new generation of artists can be inspired and where art becomes a source of positive impact.",
+        "interests": ["culture", "Art"]
+    },
+    "8": {
+        "name": "Iby’Iwacu Cultural Village",
+        "description": "Iby’Iwacu Cultural Village is a non-profit umbrella organization that aims to empower local communities in Rwanda. It is a place where you can experience the authentic culture of Rwanda.",
+        "interests": ["culture", "history"]
+
+    },
+    "9": {
+        "name": "Gishwati-Mukura National Park",
+        "description": "Gishwati-Mukura National Park is a protected area in the West of Rwanda, between Lake Kivu and the city of Kigali. The park is home to chimpanzees, golden monkeys, and other wildlife.",
+        "interests": ["wildlife", "nature"]
+    },
+    "10": {
+        "name": "Rwanda Art Museum",
+        "description": "The Rwanda Art Museum is a museum in Rwanda that was established in 1987. The museum is located in the capital city of Kigali.",
+        "interests": ["culture", "Art"]
+    },
+    "11": {
+        "name": "Kigali Night Market",
+        "description": "Kigali Night Market is a vibrant market in the capital city of Rwanda. The market offers a variety of food, drinks, and entertainment options.",
+        "interests": ["night life"]
+    },
+    "12": {
+        "name": "Kigali Convention Centre",
+        "description": "The Kigali Convention Centre is a state-of-the-art convention center in Rwanda. The center hosts a variety of events, conferences, and exhibitions.",
+        "interests": ["Urbanization", "night life", "culture"]
+    },
+    "13": {
+        "name": "Car Free Zone",
+        "description": "The Car Free Zone is a pedestrian-friendly area in the center of Kigali. The area is closed to traffic, allowing pedestrians to walk freely and enjoy the city.",
+        "interests": ["Urbanization", "night life"]
     }
 }
-
-print(attractions["6"])
