@@ -66,3 +66,12 @@ attractions = {
         "interests": ["Urbanization", "night life"]
     }
 }
+
+
+
+for key, value in attractions.items():
+    print(f"Attraction {key}:")
+    print(f"Name: {value['name']}")
+    print(f"Description: {value['description']}")
+    print(f"Interests: {', '.join(value['interests'])}")
+    print()
