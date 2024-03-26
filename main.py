@@ -12,6 +12,9 @@ def ask_interests():
     print("6. Relaxation")
     print("7. History")
     print("8. Culture")
+    print("9. Art")
+    print("10. Night Life")
+    print("11. Urbanization")
     print()
     interests_input = input(
         "Enter the numbers corresponding to your interests, separated by commas: ")
@@ -28,7 +31,10 @@ interest_mapping = {
     '5': 'water activities',
     '6': 'relaxation',
     '7': 'history',
-    '8': 'culture'
+    '8': 'culture',
+    '9': 'art',
+    '10': 'night life',
+    '11': 'urbanization',
 }
 
 
