@@ -3,7 +3,7 @@ from attractions import attractions
 
 def ask_interests():
     print("What are your interests? (Choose one or more)")
-  
+    print()
     print("1. Wildlife")
     print("2. Nature")
     print("3. Hiking")
@@ -12,7 +12,7 @@ def ask_interests():
     print("6. Relaxation")
     print("7. History")
     print("8. Culture")
-
+    print()
     interests_input = input(
         "Enter the numbers corresponding to your interests, separated by commas: ")
     interests = [interest_mapping.get(interest.strip())
@@ -30,3 +30,10 @@ interest_mapping = {
     '7': 'history',
     '8': 'culture'
 }
+
+
+print("=========== Welcome to the Rwanda Tourist Attractions Recommendation System! ===========")
+print()
+print("================ Here are some popular tourist attractions in Rwanda: ==================")
+print()
+selected_interests = ask_interests()
