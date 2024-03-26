@@ -61,7 +61,7 @@ attractions = {
         "description": "Gishwati-Mukura National Park is a protected area in the West of Rwanda, between Lake Kivu and the city of Kigali. The park is home to chimpanzees, golden monkeys, and other wildlife.",
         "interests": ["wildlife", "nature"],
         "province": "Western Province",
-        "district": "Nyabihu",
+        "district": "Rutsiro-Ngororero",
     },
     "10": {
         "name": "Rwanda Art Museum",
