@@ -44,7 +44,7 @@ attractions = {
     "7": {
         "name": "Inema Art Center",
         "description": "Inema Art Center is a collective of Rwandan creative artists. It is a place where creativity is nurtured and promoted, where a new generation of artists can be inspired and where art becomes a source of positive impact.",
-        "interests": ["culture", "Art"],
+        "interests": ["culture", "art"],
         "province": "Kigali City",
         "district": "Gasabo",
     },
@@ -66,7 +66,7 @@ attractions = {
     "10": {
         "name": "Rwanda Art Museum",
         "description": "The Rwanda Art Museum is a museum in Rwanda that was established in 1987. The museum is located in the capital city of Kigali.",
-        "interests": ["culture", "Art"],
+        "interests": ["culture", "art"],
         "province": "Kigali City",
         "district": "Nyarugenge",
     },
@@ -80,23 +80,22 @@ attractions = {
     "12": {
         "name": "Kigali Convention Centre",
         "description": "The Kigali Convention Centre is a state-of-the-art convention center in Rwanda. The center hosts a variety of events, conferences, and exhibitions.",
-        "interests": ["Urbanization", "night life", "culture"],
+        "interests": ["urbanization", "night life", "culture"],
         "province": "Kigali City",
         "district": "Gasabo",
     },
     "13": {
         "name": "Car Free Zone",
         "description": "The Car Free Zone is a pedestrian-friendly area in the center of Kigali. The area is closed to traffic, allowing pedestrians to walk freely and enjoy the city.",
-        "interests": ["Urbanization", "night life"],
+        "interests": ["urbanization", "night life"],
         "province": "Kigali City",
         "district": "Nyarugenge",
     },
     "14": {
         "name": "Ku kirenge cya Ruganzu",
         "description": "Ku Kirenge’ (on the foot), a place that is home to ‘Ikirenga cultural centre,’ where a rock believed to have a footprint of Ruganzu, a well known king in the history of Rwanda for winning wars and expanding Rwanda's Kingdom is on display",
-        "interests": ["History", "Culture"],
+        "interests": ["history", "culture"],
         "province": "Northern Province",
         "district": "Rulindo",
-
     }
 }
