@@ -90,5 +90,13 @@ attractions = {
         "interests": ["Urbanization", "night life"],
         "province": "Kigali City",
         "district": "Nyarugenge",
+    },
+    "14": {
+        "name": "Ku kirenge cya Ruganzu",
+        "description": "Ku Kirenge’ (on the foot), a place that is home to ‘Ikirenga cultural centre,’ where a rock believed to have a footprint of Ruganzu, a well known king in the history of Rwanda for winning wars and expanding Rwanda's Kingdom is on display",
+        "interests": ["History", "Culture"],
+        "province": "Northern Province",
+        "district": "Rulindo",
+
     }
 }
