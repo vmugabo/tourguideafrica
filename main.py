@@ -1,6 +1,22 @@
 from attractions import attractions
 
 
+def recommend_attractions(interests):
+    recommended_attractions = []
+    for key, attraction in attractions.items():
+        if any(interest.lower() in attraction['interests'] for interest in interests):
+            recommended_attractions.append(attraction)
+
+    # If no recommendation is found, recommend the first attraction that matches any interest
+    if not recommended_attractions:
+        for key, attraction in attractions.items():
+            if any(interest.lower() in attraction['interests'] for interest in interests):
+                recommended_attractions.append(attraction)
+                break
+
+    return recommended_attractions
+
+
 def ask_interests():
     print("What are your interests? (Choose one or more)")
     print()
