@@ -38,7 +38,6 @@ def ask_interests():
                  for interest in interests_input.split(',')]
     return [interest for interest in interests if interest]
 
-
 interest_mapping = {
     '1': 'wildlife',
     '2': 'nature',
@@ -59,11 +58,21 @@ print()
 print("================ Here are some popular tourist attractions in Rwanda: ==================")
 print()
 selected_interests = ask_interests()
+
 # Creating a new dictionary that contains any of the selected interests variable
+
 filtered_data = {key: value for key, value in attractions.items() if any(interest in value.get('interests', []) for interest in selected_interests)}
-for key, value in filtered_data.items():
-    print('Name: {},'.format(value['name']))
-    print('Description: {},'.format(value['description']))
-    print('Location: {}, {},'.format(value['district'], value['province']))
-    print('Interests: {},'.format(', '.join(value['interests'])))
-    print('-' * 80)
+
+if filtered_data:
+    print("\nHere are the attractions matching your interests:")
+    recommended_attractions = recommend_attractions(selected_interests)
+    for key, value in filtered_data.items():
+        print('Name: {},'.format(value['name']))
+        print('Description: {},'.format(value['description']))
+        print('Location: {}, {},'.format(value['district'], value['province']))
+        print('Interests: {},'.format(', '.join(value['interests'])))
+        print('-' * 80)
+
+else:
+    print("Sorry, there are no attractions matching your interests.")
+
