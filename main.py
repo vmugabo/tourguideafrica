@@ -1,6 +1,6 @@
 # Main entry of the program
 
-from utils import app_introduction, request_handler
+from guide_africa.utils import app_introduction, request_handler
 
 # Print app Introductions
 app_introduction()

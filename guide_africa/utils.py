@@ -1,5 +1,5 @@
-from constants import APP_NAME, interest_mapping
-from attractions import attractions
+from guide_africa.constants import APP_NAME, interest_mapping
+from guide_africa.attractions import attractions
 
 """
     utility functions for exiting the application
