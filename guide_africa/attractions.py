@@ -105,4 +105,11 @@ attractions = {
         "province": "Kigali city",
         "district": "Nyarugenge",
         }
+    "16": {
+        "name": "The African Leadership University",
+        "description": "The African Leadership university is a tertiary institution in Rwanda where you can go an interact with students who are dedicated to solve some of the worlds most pressing challenges. You can go there to interact with students to hear some of their stories.",
+        "interests": ["history", "culture"],
+        "province": "Kigali City",
+        "district": "Nyarugenge",
+        },
 }
