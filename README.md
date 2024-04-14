@@ -1,6 +1,6 @@
 # Tour Guide Africa
 
-This Python program recommends tourist attractions in Rwanda based on user interests. It utilizes a predefined dictionary of attractions and allows users to input their interests to receive personalized recommendations.
+This Python program recommends tourist attractions in Rwanda based on user interests. It utilizes a predefined dictionary of attractions and allows users to input their interests to receive personalized recommendations on where to visit.
 
 # Features
 
