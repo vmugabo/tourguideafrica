@@ -97,5 +97,12 @@ attractions = {
         "interests": ["history", "culture"],
         "province": "Northern Province",
         "district": "Rulindo",
-    }
+        }
+    "15": {
+        "name": "Fazenda Sengha",
+        "description": "Fazenda Sengha is an outdoor recreationnal center that offers horse back riding experiences, ziplines, archery, quad bikes, bungee trampoline, pétanque and others. Guests can also enjoy their picnics in a beautiful garden or terrace surrounded by nature.",
+        "interests": ["relaxation", "hiking", "scenery"],
+        "province": "Kigali city",
+        "district": "Nyarugenge",
+        }
 }
